@@ -1,0 +1,84 @@
+{
+    "Navbar": [
+        "News",
+        "Projects",
+        "Partners",
+        "Events",
+        "Sponsors",
+        "Services",
+        "Center of Mind",
+        "Scientific Ethics"
+    ],
+    "Hero": {
+        "contact": "Connection",
+        "about": "About Us"
+    },
+    "AboutUs": {
+        "hero_title": "About Us",
+        "button": "Read more"
+    },
+    "Projects": {
+        "hero_title": "Our projects",
+        "button": "All our projects"
+    },
+    "News": {
+        "hero_title": "News",
+        "button": "All news"
+    },
+    "Services": {
+        "hero_title": "Our services",
+        "button": "All services"
+    },
+    "Question": {
+        "hero_title": "Frequently asked questions"
+    },
+    "Members": {
+        "hero_title": "Members",
+        "position": "Position",
+        "work": "Workplace",
+        "activity": "Activity",
+        "legal": "Legal person",
+        "physical": "Physical person",
+        "all_members": "All members",
+        "more": "Read more",
+        "organ_type": "Organization activity",
+        "organ_address": "Organization address",
+        "extra": "Additional Information"
+    },
+    "Initiators": {
+        "hero_title": "Initiators",
+        "all_initiators": "All Initiators",
+        "birthday": "Birthday",
+        "life_address": "Residential address",
+        "birthplace": "Place of Birth",
+        "workplace": "Workplace"
+    },
+    "Contact": {
+        "hero_title": "Connection",
+        "name": "Your name",
+        "phone": "Your phone number",
+        "desc": "Leave a message",
+        "contact_number": "Technical support",
+        "contact_address": "Address",
+        "button": "Send",
+        "message": "Message sent, we will be in touch soon!"
+    },
+    "InitiatorReg": {
+        "hero_title": "Leave an application for cooperation"
+    },
+    "MemberReg": {
+        "hero_title": "Apply for membership",
+        "hero_desc": "Become a member of our association and stay with us.",
+        "is_legal_question": "Legal or physical person?",
+        "legal": "Legal person",
+        "physical": "Physical person"
+    },
+    "Partners": {
+        "hero_title": "Partners",
+        "button": "All our partners"
+    },
+    "Footer": {
+        "hero_title": "The purpose of the association",
+        "hero_desc": "It consists in developing the scientific field by publicizing and promoting the results of scientific research, improving the quality of scientific publications, assisting in the development of editorial and publishing activities in the scientific field, and protecting the rights and interests of its members."
+    }
+}

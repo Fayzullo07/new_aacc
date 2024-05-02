@@ -1,0 +1,84 @@
+{
+    "Navbar": [
+        "Yangiliklar",
+        "Loyihalar",
+        "Hamkorlar",
+        "Tadbirlar",
+        "Tashabbuskorlar",
+        "Xizmatlar",
+        "Aql markazi",
+        "Ilmiy etika"
+    ],
+    "Hero": {
+        "contact": "Bog'lanish",
+        "about": "Biz haqimizda"
+    },
+    "AboutUs": {
+        "hero_title": "Biz Haqimizda",
+        "button": "Ko'proq o'qish"
+    },
+    "Projects": {
+        "hero_title": "Loyihalarimiz",
+        "button": "Barcha loyihalarimiz"
+    },
+    "News": {
+        "hero_title": "Yangiliklar",
+        "button": "Barcha yangiliklar"
+    },
+    "Services": {
+        "hero_title": "Xizmatlarimiz",
+        "button": "Barcha xizmatlar"
+    },
+    "Question": {
+        "hero_title": "Tez-tez so'raladigan savollar"
+    },
+    "Members": {
+        "hero_title": "A'zolar",
+        "position": "Lavozimi",
+        "work": "Ish joyi",
+        "activity": "Faoliyati",
+        "legal": "Yuridik shaxs",
+        "physical": "Jismoniy shaxs",
+        "all_members": "Barcha a'zolar",
+        "more": "Ko'proq o'qish",
+        "organ_type": "Tashkilot faoliyat turi",
+        "organ_address": "Tashkilot manzili",
+        "extra": "Qo'shimcha ma'lumot"
+    },
+    "Initiators": {
+        "hero_title": "Tashabbuskorlar",
+        "all_initiators": "Barcha Tashabbuskorlar",
+        "birthday": "Tug'ilgan sana",
+        "life_address": "Yashash manzili",
+        "birthplace": "Tug'ilgan joyi",
+        "workplace": "Ish joyi"
+    },
+    "Contact": {
+        "hero_title": "Bog'lanish",
+        "name": "Ismingiz",
+        "phone": "Telefon raqamingiz",
+        "desc": "Xabar qoldiring",
+        "contact_number": "Texnik yordam",
+        "contact_address": "Manzil",
+        "button": "Yuborish",
+        "message": "Xabar yuborildi tez orada aloqaga chiqmiz!"
+    },
+    "InitiatorReg": {
+        "hero_title": "Hamkorlik uchun ariza qoldiring"
+    },
+    "MemberReg": {
+        "hero_title": "A'zo bo'lish uchun ariza qoldiring",
+        "hero_desc": "Bizning accotsiyaga a'zo bo'ling va biz bilan birga bo'ling.",
+        "is_legal_question": "Yuridik shaxs yoki jismoniy?",
+        "legal": "Yuridik shaxs",
+        "physical": "Jismoniy shaxs"
+    },
+    "Partners": {
+        "hero_title": "Hamkorlarimiz",
+        "button": "Barcha hamkorlarimiz"
+    },
+    "Footer": {
+        "hero_title": "Assotsiatsiyaning maqsadi",
+        "hero_desc": "Ilmiy tadqiqotlar natijalarini ommalashtirish va targʻib qilish orqali ilmiy sohani rivojlantirish, ilmiy nashrlari sifatini oshirish, ilmiy sohadagi tahririyat va noshirlik faoliyatini rivojlantirishga koʻmaklashish hamda oʻz aʼzolarining huquqlari va manfaatlarini himoya qilishdan iborat."
+    }
+}
