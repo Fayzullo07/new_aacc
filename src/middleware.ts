@@ -4,7 +4,6 @@ import { locales, localePrefix, pathnames } from './navigation';
 
 import { NextRequest, NextResponse } from "next/server"
 
-
 export default createMiddleware({
   defaultLocale: 'ru',
   localePrefix,
