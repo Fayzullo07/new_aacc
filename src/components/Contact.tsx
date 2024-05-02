@@ -51,6 +51,7 @@ const Contact = () => {
                 });
             },
             onSuccess: () => {
+                toast.success(t("message"));
                 setFormData({ ...formData, name: "", phone: "", desc: "" })
             }
         }
@@ -61,7 +62,6 @@ const Contact = () => {
                 return messagePostAPI(formData);
             },
             onSuccess: () => {
-                toast.success(t("message"));
                 mutationBot.mutate();
                 // setFormData({ ...formData, name: "", phone: "", desc: "" })
             }
@@ -137,9 +137,9 @@ const Contact = () => {
 
                                     <button
                                         type="submit"
-                                        disabled={mutation.isPending}
+                                        disabled={mutationBot.isPending}
                                         className="mb-6 w-full rounded bg-maincolor text-white px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal   lg:mb-0">
-                                        {!mutation.isPending ? t("button") : "Loaning..."}
+                                        {!mutationBot.isPending ? t("button") : "Loaning..."}
                                     </button>
                                 </form>
                             </div>
