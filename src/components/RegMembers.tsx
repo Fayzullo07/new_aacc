@@ -40,7 +40,7 @@ const RegMembers = () => {
         {
             mutationFn: async () => {
                 return telegramPostAPI({
-                    chat_id: -1002020152748,
+                    chat_id: -1002113321552,
                     text: `A'zo bo'lish uchun ariza!\n${formData.isLegal ? "Yuridik " : "Jismoniy "}shaxs bo'lib.\n\nIsm: ` + formData.name + "\nTel: " + formData.phone + "\nIzoh: " + formData.desc
                 });
             },

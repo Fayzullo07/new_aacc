@@ -39,7 +39,7 @@ const PartnersApplication = () => {
         {
             mutationFn: async () => {
                 return telegramPostAPI({
-                    chat_id: -1002020152748,
+                    chat_id: -1002113321552,
                     text: "Hamkorlik uchun xabar!\n\nIsm: " + formData.name + "\nTel: " + formData.phone + "\nIzoh: " + formData.desc
                 });
             },

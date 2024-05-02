@@ -1,7 +1,7 @@
 import axios from "axios";
 const URL = process.env.TELEGRAM_API;
 const API = axios.create({ baseURL: URL });
-const token = '6536616687:AAGzHPLf3wAr-JnvMwlagmPHXlsZBNO1xo4'
+const token = '7131194128:AAGc1vz4q3o072czHeLfcrJSeamgStuCaFM'
 
 // Telegram
 
