@@ -23,7 +23,7 @@ const Members = () => {
             <Container>
                 <div className="flex justify-between items-center py-5 md:py-10" >
                     <h2 className="text-2xl font-semibold" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">{t('hero_title')}</h2>
-                    <div className="flex items-center gap-2">
+                    {/* <div className="flex items-center gap-2">
                         <DropdownMenu >
                             <DropdownMenuTrigger asChild>
                                 <button className="w-full sm:w-auto px-2 py-1 text-base text-maincolor bg-white border border-maincolor rounded-md hover:bg-maincolor hover:text-white duration-300">{isYuridik ? t('legal') : t('physical')}</button>
@@ -39,16 +39,16 @@ const Members = () => {
                             </DropdownMenuContent>
                         </DropdownMenu>
 
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 duration-100">
-                    {isYuridik ? (
-                        <LegalUsersGet amount={3} />
-                    ) : (
-                        <PhysicalUsersGet amount={3} />
-                    )
-                    }
+                    {/* {isYuridik ? ( */}
+                    {/* <LegalUsersGet amount={3} /> */}
+                    {/* ) : ( */}
+                    <PhysicalUsersGet amount={3} />
+                    {/* ) */}
+                    {/* } */}
                 </div>
             </Container>
         </div>
