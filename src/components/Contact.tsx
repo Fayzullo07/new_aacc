@@ -156,8 +156,8 @@ const Contact = () => {
                                                 <p className="font-semibold text-lg">
                                                     {t("contact_number")}
                                                 </p>
-                                                <a href="tel:+998772807060" className="text-sm text-neutral-500">
-                                                    +998 77 280 70 60
+                                                <a href="tel:+998939179933" className="text-sm text-neutral-500">
+                                                    +998 93 917 99 33
                                                 </a>
                                             </div>
                                         </div>
@@ -174,7 +174,7 @@ const Contact = () => {
                                                     {t("contact_address")}
                                                 </p>
                                                 <p className="text-sm text-neutral-500">
-                                                    {"Toshkent shahri, Yakkasaroy tumani, Shota Rustaveli koʻchasi, 45-uy"}
+                                                    {"Toshkent shahri, Chilonzor tumani, Bunyodkor stadioni"}
                                                 </p>
                                             </div>
                                         </div>

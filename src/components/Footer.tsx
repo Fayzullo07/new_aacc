@@ -11,17 +11,10 @@ const Footer = () => {
 
     const t = useTranslations("Footer");
     const data_services = [
-        "Ekspertiza",
-        "Texnik koʻmak",
-        "Reyting",
-        "Slib.uz",
-        "E-taqriz",
-        "ROI",
-        "Anjumanlar.uz",
-        "Veb sayt yaratish",
-        "Tarjima",
-        "Inson resurslari",
-        "ScienceGate"
+        "Servise 1",
+        "Servise 2",
+        "Servise 3",
+        "Servise 4",
     ]
     return (
         <div className={`${pathname.split("/")[2] == "admin" ? "hidden" : ""} bg-gray-900`}>
@@ -43,7 +36,7 @@ const Footer = () => {
                                 </div>
 
                                 <p
-                                    className="text-justify mt-6 leading-relaxed text-lg text-gray-400 sm:text-left"
+                                    className="text-justify mt-6 leading-relaxed text-base text-gray-400 sm:text-left"
                                 >
                                     {t("hero_desc")}
                                 </p>
@@ -58,11 +51,11 @@ const Footer = () => {
                                     <p className="text-lg font-medium text-white">Our Services</p>
 
                                     <div className="mt-2">
-                                        <ul className=" text-sm">
+                                        <ul className=" space-y-2 text-base">
                                             {data_services.map((item, i) => (
 
                                                 <li key={i}>
-                                                    <div className="mb-1 text-white transition hover:text-white/75">
+                                                    <div className=" text-white transition hover:text-white/75">
                                                         {item}
                                                     </div>
                                                 </li>
@@ -83,7 +76,7 @@ const Footer = () => {
                                                 <MailIcon color="white" />
 
                                                 <span className="text-white transition group-hover:text-white/75">
-                                                    daminov.asror86@gmail.com
+                                                    shuhratxon@gmail.com
                                                 </span>
                                             </Link>
                                         </li>
@@ -96,7 +89,7 @@ const Footer = () => {
                                                 <PhoneIcon color="white" />
 
                                                 <span className="text-white transition group-hover:text-white/75">
-                                                    +998 77 280 70 60
+                                                    +998 93 917 99 33
                                                 </span>
                                             </Link>
                                         </li>
@@ -107,7 +100,7 @@ const Footer = () => {
                                             <MapPinIcon color="white" />
 
                                             <address className="-mt-0.5 not-italic text-white">
-                                                {"Toshkent shahri, Yakkasaroy tumani, Shota Rustaveli koʻchasi, 45-uy"}
+                                                {"Toshkent shahri, Chilonzor tumani, Bunyodkor stadioni"}
                                             </address>
                                         </li>
                                     </ul>
@@ -132,15 +125,15 @@ const Footer = () => {
                                             />
                                         </li>
 
-                                        <Link href={"https://t.me/Ilmbukuch"}>
-                                            <Image
-                                                src="/socials/telegram.png"
-                                                width={30}
-                                                height={30}
-                                                className=" hover:scale-125 duration-300 cursor-pointer"
-                                                alt="Image"
-                                            />
-                                        </Link>
+                                        {/* <Link href={"https://t.me/Ilmbukuch"}> */}
+                                        <Image
+                                            src="/socials/telegram.png"
+                                            width={30}
+                                            height={30}
+                                            className=" hover:scale-125 duration-300 cursor-pointer"
+                                            alt="Image"
+                                        />
+                                        {/* </Link> */}
 
                                         <li>
                                             <Image
@@ -188,15 +181,15 @@ const Footer = () => {
                                         />
                                     </li>
 
-                                    <Link href={"https://t.me/Ilmbukuch"}>
-                                        <Image
-                                            src="/socials/telegram.png"
-                                            width={30}
-                                            height={30}
-                                            className=" hover:scale-125 duration-300 cursor-pointer"
-                                            alt="Image"
-                                        />
-                                    </Link>
+                                    {/* <Link href={"https://t.me/Ilmbukuch"}> */}
+                                    <Image
+                                        src="/socials/telegram.png"
+                                        width={30}
+                                        height={30}
+                                        className=" hover:scale-125 duration-300 cursor-pointer"
+                                        alt="Image"
+                                    />
+                                    {/* </Link> */}
 
                                     <li>
                                         <Image
