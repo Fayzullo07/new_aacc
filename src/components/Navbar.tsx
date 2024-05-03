@@ -39,11 +39,24 @@ const Navbar = () => {
     return (
         <header className={`${pathname.split("/")[2] == "admin" ? "hidden" : ""}`}>
             <nav className={`${stickyNav ? "active" : ""} flex flex-wrap items-center justify-between w-full px-4 py-4  text-lg text-gray-700 bg-white z-[100]`}>
-                <div className="w-60 h-auto">
+                <div className="w-60 h-auto hidden lg:block">
 
                     <Link href={"/"}>
                         <Image
                             src="/logo-desktop.png"
+                            width={0}
+                            height={0}
+                            sizes="100vw"
+                            style={{ width: '100%', height: 'auto' }} // optional
+                            alt="Image"
+                        />
+                    </Link>
+                </div>
+                <div className="w-24 h-auto lg:hidden block">
+
+                    <Link href={"/"}>
+                        <Image
+                            src="/logo-mobile.png"
                             width={0}
                             height={0}
                             sizes="100vw"
