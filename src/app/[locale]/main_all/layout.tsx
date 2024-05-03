@@ -29,22 +29,22 @@ const Layout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
             slug: "/partners",
             title: "Hamkorlar"
         },
-        {
-            slug: "/initiators",
-            title: "Tashabbuskorlar"
-        },
+        // {
+        //     slug: "/initiators",
+        //     title: "Tashabbuskorlar"
+        // },
         {
             slug: "/services",
             title: "Xizmatlar"
         },
-        {
-            slug: "/center_mind",
-            title: "Aql Markazi"
-        },
-        {
-            slug: "/ilmiy_etika",
-            title: "Ilmiy etika"
-        },
+        // {
+        //     slug: "/center_mind",
+        //     title: "Aql Markazi"
+        // },
+        // {
+        //     slug: "/ilmiy_etika",
+        //     title: "Ilmiy etika"
+        // },
         {
             slug: "/about",
             title: "Biz haqimizda"
