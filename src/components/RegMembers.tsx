@@ -143,7 +143,7 @@ const RegMembers = () => {
                                                     <div className="flex items-center">
                                                         <input type="radio" name="radio1" id="radioButton1" className="h-5 w-5"
                                                             checked={formData.isLegal === true}
-                                                            onChange={() => setFormData({ ...formData, isLegal: !formData.isLegal })}
+                                                            onChange={() => setFormData({ ...formData, isLegal: true })}
                                                         />
                                                         <label htmlFor="radioButton1" className="pl-3 text-base font-medium text-[#07074D]">
                                                             {m("legal")}
@@ -152,7 +152,7 @@ const RegMembers = () => {
                                                     <div className="flex items-center">
                                                         <input type="radio" name="radio1" id="radioButton2" className="h-5 w-5"
                                                             checked={formData.isLegal === false}
-                                                            onChange={() => setFormData({ ...formData, isLegal: !formData.isLegal })}
+                                                            onChange={() => setFormData({ ...formData, isLegal: false })}
                                                         />
                                                         <label htmlFor="radioButton2" className="pl-3 text-base font-medium text-[#07074D]">
                                                             {m("physical")}

@@ -15,6 +15,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 
 import Provider from "@/utils/Provider";
+import { ClerkProvider } from '@clerk/nextjs'
 
 export const metadata: Metadata = {
   title: "AACC | Uzbekistan",
@@ -32,34 +33,36 @@ export default function LocaleLayout({ children, params: { locale }, }: Readonly
   const messages = useMessages();
 
   return (
-    <html lang={locale}>
-      <body className={inter.className}>
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            <ToastContainer
-              position="top-right"
-              autoClose={5000}
-              hideProgressBar={false}
-              newestOnTop={false}
-              closeOnClick
-              rtl={false}
-              pauseOnFocusLoss
-              draggable
-              pauseOnHover
-              theme="light" />
-            <TopLoader />
-            <div className="min-h-screen">
-              <Provider>
-                <Navbar />
-                {children}
-              </Provider>
-            </div>
-            <TailwindIndicator />
-            <Footer />
-          </ThemeProvider>
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <ClerkProvider>
+      <html lang={locale}>
+        <body className={inter.className}>
+          <NextIntlClientProvider locale={locale} messages={messages}>
+            <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+              <ToastContainer
+                position="top-right"
+                autoClose={5000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="light" />
+              <TopLoader />
+              <div className="min-h-screen">
+                <Provider>
+                  <Navbar />
+                  {children}
+                </Provider>
+              </div>
+              <TailwindIndicator />
+              <Footer />
+            </ThemeProvider>
+          </NextIntlClientProvider>
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }
 

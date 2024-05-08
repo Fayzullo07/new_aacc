@@ -12,15 +12,7 @@ export default function Layout({ children }: Readonly<{ children: React.ReactNod
         {
             slug: "/about",
             title: "About",
-        },
-        {
-            slug: "/center_mind",
-            title: "Aql makazi",
-        },
-        {
-            slug: "/ilmiy_etika",
-            title: "Ilmiy Etika",
-        },
+        }
     ]
 
     return (

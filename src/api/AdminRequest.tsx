@@ -1,5 +1,5 @@
 import axios from "axios";
-const URL = process.env.BACKEND_API;
+const URL = process.env.NEXT_PUBLIC_BACKEND_API;
 const API = axios.create({ baseURL: URL });
 
 // const config = {
@@ -9,6 +9,10 @@ const API = axios.create({ baseURL: URL });
 // };
 
 // -----------------------------------------HERO-----------------------------
+// GET
+export const heroGetAPI = async () =>
+    API.get(`/api/hero`);
+
 // POST
 export const heroPostAPI = async (data: any) =>
     API.post(`/api/hero`, data);
@@ -23,6 +27,10 @@ export const heroGetOneAPI = async ({ id = "" }: { id: any }) =>
 
 
 // -----------------------------------------ABOUT-----------------------------
+// GET
+export const aboutGetAPI = async () =>
+    API.get(`/api/about`);
+
 // POST
 export const aboutPostAPI = async (data: any) =>
     API.post(`/api/about`, data);

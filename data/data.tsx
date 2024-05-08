@@ -20,3 +20,35 @@ export const stats = [
     { consulting: 25 },
     { clients: 187 }
 ];
+
+export  const data_links = [
+    {
+        slug: "/news",
+        title: "Yangiliklar"
+    },
+    {
+        slug: "/projects",
+        title: "Loyihalarimiz"
+    },
+    {
+        slug: "/members",
+        title: "A'zolar"
+    },
+    {
+        slug: "/events",
+        title: "Tadbirlar"
+    },
+
+    {
+        slug: "/partners",
+        title: "Hamkorlar"
+    },
+    {
+        slug: "/services",
+        title: "Xizmatlar"
+    },
+    {
+        slug: "/about",
+        title: "Biz haqimizda"
+    },
+]
